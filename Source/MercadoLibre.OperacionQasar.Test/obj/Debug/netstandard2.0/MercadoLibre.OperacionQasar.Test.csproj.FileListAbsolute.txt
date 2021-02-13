@@ -1,0 +1,9 @@
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\bin\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.deps.json
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\bin\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.dll
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\bin\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.pdb
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\obj\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.csprojAssemblyReference.cache
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\obj\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.AssemblyInfoInputs.cache
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\obj\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.AssemblyInfo.cs
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\obj\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.csproj.CoreCompileInputs.cache
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\obj\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.dll
+E:\OtherProjects\MercadoLibre.OperacionQasar\MercadoLibre.OperacionQasar.Test\obj\Debug\netstandard2.0\MercadoLibre.OperacionQasar.Test.pdb

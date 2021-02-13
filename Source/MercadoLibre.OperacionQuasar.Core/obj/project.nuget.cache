@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4lKstFPdE9CYnYFNWWmLg0dSwTZBq7XER0rYVdKqzdpYFjbK0SvGF+IRvJHop2Y22B5n3n2Ulemzxic23wo4yQ==",
+  "success": true,
+  "projectFilePath": "E:\\OtherProjects\\MercadoLibre.OperacionQasar\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQuasar.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
