@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadoLibre.OperacionQasar.WebApp", "MercadoLibre.OperacionQasar.WebApp\MercadoLibre.OperacionQasar.WebApp.csproj", "{24068108-5488-40AC-B00E-A8C6341B505D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoLibre.OperacionQasar.WebApp", "MercadoLibre.OperacionQasar.WebApp\MercadoLibre.OperacionQasar.WebApp.csproj", "{24068108-5488-40AC-B00E-A8C6341B505D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadoLibre.OperacionQasar.Test", "MercadoLibre.OperacionQasar.Test\MercadoLibre.OperacionQasar.Test.csproj", "{5917366E-98B6-4B65-AD48-0B0A5C6BB7E3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadoLibre.OperacionQuasar.Core", "MercadoLibre.OperacionQuasar.Core\MercadoLibre.OperacionQuasar.Core.csproj", "{F3C69BB7-9250-4E27-A5F0-7C9CBCD53853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoLibre.OperacionQuasar.Core", "MercadoLibre.OperacionQuasar.Core\MercadoLibre.OperacionQuasar.Core.csproj", "{F3C69BB7-9250-4E27-A5F0-7C9CBCD53853}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MercadoLibre.OperationQasar.DataBase", "MercadoLibre.OperationQasar.DataBase\MercadoLibre.OperationQasar.DataBase.sqlproj", "{FA79B8ED-E87F-46B1-8D17-22D6605766E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadoLibre.OperacionQasar.Test", "MercadoLibre.OperacionQasar.Test\MercadoLibre.OperacionQasar.Test.csproj", "{DEE7D7EE-CC55-4BA6-AD9E-CB6230350EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{24068108-5488-40AC-B00E-A8C6341B505D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24068108-5488-40AC-B00E-A8C6341B505D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24068108-5488-40AC-B00E-A8C6341B505D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5917366E-98B6-4B65-AD48-0B0A5C6BB7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5917366E-98B6-4B65-AD48-0B0A5C6BB7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5917366E-98B6-4B65-AD48-0B0A5C6BB7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5917366E-98B6-4B65-AD48-0B0A5C6BB7E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3C69BB7-9250-4E27-A5F0-7C9CBCD53853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3C69BB7-9250-4E27-A5F0-7C9CBCD53853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3C69BB7-9250-4E27-A5F0-7C9CBCD53853}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,6 +31,10 @@ Global
 		{FA79B8ED-E87F-46B1-8D17-22D6605766E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA79B8ED-E87F-46B1-8D17-22D6605766E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA79B8ED-E87F-46B1-8D17-22D6605766E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DEE7D7EE-CC55-4BA6-AD9E-CB6230350EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE7D7EE-CC55-4BA6-AD9E-CB6230350EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE7D7EE-CC55-4BA6-AD9E-CB6230350EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE7D7EE-CC55-4BA6-AD9E-CB6230350EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

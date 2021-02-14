@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "11iI2rajwoFfaWY2OoKOkosXK8I7b8gw8lChHaoz6Qv8Y5YphYyGhAHiJ9eOeJoDHeNrESF0FPs0bcub+FcOsQ==",
+  "dgSpecHash": "ShmL9Gntsn0Spg0OrxubZ600E1W4yIRUAxhw5aiMyT3Nn9vmb+6kthQ3h3lXkHWgShunPqxvuFr31cBNu7uIgA==",
   "success": true,
-  "projectFilePath": "E:\\OtherProjects\\MercadoLibre.OperacionQasar\\MercadoLibre.OperacionQasar.WebApp\\MercadoLibre.OperacionQasar.WebApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQasar.WebApp\\MercadoLibre.OperacionQasar.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Andres Moreno\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
