@@ -80,8 +80,7 @@ El proyecto se despliega utilizando diferentes servicios del portal de **Azure**
 Se requiere tener una suscripción activa en el portal de **Azure**
 
 ### **Diagrama de despliegue**
-
-![Screenshot](Documentation\Diagrams\Export\DeploymentDiagram.jpg)
+![DeploymentDiagram](https://user-images.githubusercontent.com/35159383/108166832-c0782e00-70c2-11eb-836d-12b14c147ae3.jpg)
 
 * **Azure Server**
   Servidores de azure que provee el uso de los siguientes servicios:
