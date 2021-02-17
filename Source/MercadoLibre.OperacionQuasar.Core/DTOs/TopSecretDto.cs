@@ -1,9 +1,15 @@
-﻿using System.Collections.Generic;
-
-namespace MercadoLibre.OperacionQuasar.Core.DTOs
+﻿namespace MercadoLibre.OperacionQuasar.Core.DTOs
 {
+    using System.Collections.Generic;
+
+    /// <summary>
+    /// Defines the <see cref="TopSecretDto" />.
+    /// </summary>
     public class TopSecretDto
     {
-        public IEnumerable<TopSecretSatelliteDto> Satellites { get; set; }
+        /// <summary>
+        /// Gets or sets the Satellites.
+        /// </summary>
+        public IEnumerable<SatelliteDto> Satellites { get; set; }
     }
 }

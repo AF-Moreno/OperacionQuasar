@@ -1,9 +1,9 @@
-﻿using MercadoLibre.OperacionQuasar.Core.DataAccess;
-using MercadoLibre.OperacionQuasar.Core.Entities;
-using System.Threading.Tasks;
-
-namespace MercadoLibre.OperacionQuasar.Core.Repositories
+﻿namespace MercadoLibre.OperacionQuasar.Core.Repositories
 {
+    using MercadoLibre.OperacionQuasar.Core.DataAccess;
+    using MercadoLibre.OperacionQuasar.Core.Entities;
+    using System.Threading.Tasks;
+
     internal class UserRepository : IUserRepository
     {
         private readonly ISqlDataAccess _dataAccess;

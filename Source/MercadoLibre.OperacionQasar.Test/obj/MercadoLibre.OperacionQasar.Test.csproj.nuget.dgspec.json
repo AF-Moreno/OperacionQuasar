@@ -29,8 +29,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQuasar.Core.csproj": {
-                "projectPath": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQuasar.Core.csproj"
+              "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQasar.Core.csproj": {
+                "projectPath": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQasar.Core.csproj"
               }
             }
           }
@@ -81,12 +81,12 @@
         }
       }
     },
-    "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQuasar.Core.csproj": {
+    "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQasar.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQuasar.Core.csproj",
-        "projectName": "MercadoLibre.OperacionQuasar.Core",
-        "projectPath": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQuasar.Core.csproj",
+        "projectUniqueName": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQasar.Core.csproj",
+        "projectName": "MercadoLibre.OperacionQasar.Core",
+        "projectPath": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\MercadoLibre.OperacionQasar.Core.csproj",
         "packagesPath": "C:\\Users\\Andres Moreno\\.nuget\\packages\\",
         "outputPath": "E:\\OtherProjects\\MercadoLibre-OperacionQasar\\Source\\MercadoLibre.OperacionQuasar.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -139,6 +139,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

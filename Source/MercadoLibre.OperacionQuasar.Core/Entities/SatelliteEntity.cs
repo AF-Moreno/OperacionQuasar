@@ -15,7 +15,5 @@
         /// Gets or sets the PositionY.
         /// </summary>
         public float PositionY { get; set; }
-
-
     }
 }

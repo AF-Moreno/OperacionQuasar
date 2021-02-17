@@ -14,11 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Integration\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\MercadoLibre.OperacionQuasar.Core\MercadoLibre.OperacionQuasar.Core.csproj" />
+    <ProjectReference Include="..\MercadoLibre.OperacionQuasar.Core\MercadoLibre.OperacionQasar.Core.csproj" />
   </ItemGroup>
 
 </Project>

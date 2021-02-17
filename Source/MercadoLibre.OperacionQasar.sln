@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoLibre.OperacionQasar.WebApp", "MercadoLibre.OperacionQasar.WebApp\MercadoLibre.OperacionQasar.WebApp.csproj", "{24068108-5488-40AC-B00E-A8C6341B505D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoLibre.OperacionQuasar.Core", "MercadoLibre.OperacionQuasar.Core\MercadoLibre.OperacionQuasar.Core.csproj", "{F3C69BB7-9250-4E27-A5F0-7C9CBCD53853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoLibre.OperacionQasar.Core", "MercadoLibre.OperacionQuasar.Core\MercadoLibre.OperacionQasar.Core.csproj", "{F3C69BB7-9250-4E27-A5F0-7C9CBCD53853}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MercadoLibre.OperationQasar.DataBase", "MercadoLibre.OperationQasar.DataBase\MercadoLibre.OperationQasar.DataBase.sqlproj", "{FA79B8ED-E87F-46B1-8D17-22D6605766E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadoLibre.OperacionQasar.Test", "MercadoLibre.OperacionQasar.Test\MercadoLibre.OperacionQasar.Test.csproj", "{DEE7D7EE-CC55-4BA6-AD9E-CB6230350EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoLibre.OperacionQasar.Test", "MercadoLibre.OperacionQasar.Test\MercadoLibre.OperacionQasar.Test.csproj", "{DEE7D7EE-CC55-4BA6-AD9E-CB6230350EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
