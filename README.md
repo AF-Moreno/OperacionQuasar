@@ -9,6 +9,7 @@ El objetivo principal es desarrollar una aplicación de servicios web REST Full 
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [XUnit](https://xunit.net/)
 * [Swagger](https://swagger.io/)
+* [Dapper Micro ORM](https://dapper-tutorial.net/)
 ### Herramientas de infraestructura
 * [Azure App Service](https://azure.microsoft.com/es-es/services/app-service/)
 * [Azure SQL Database](https://azure.microsoft.com/es-es/services/sql-database/)
@@ -46,6 +47,7 @@ Se implementa la arquitectura MVC segregado por las siguientes capas
 
 **MercadoLibre.OperacionQasar.Core**
 * **Repository** 
+  * Uso de Dapper como micro ORM para obtener datos de SQL Server 
   * Capa encargada del acceso a Datos (SQL Server, MemoryCache)
   * implementación del patrón repositorio
 * **Domain (Service)**
