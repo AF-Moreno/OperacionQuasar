@@ -20,7 +20,7 @@ El objetivo principal es desarrollar una aplicación de servicios web REST Full 
 * Se requiere el IDE [Visual Studio](https://visualstudio.microsoft.com/es/)
 * **Configuración de la base de datos**
   * En el proyecto **MercadoLibre.OperacionQasar.DataBase** debe publicarse (Click Derecho, Publish..)
-  ![Screenshot](Documentation\ScreenShots\Project-DataBase-Publish.png)
+  ![Screenshot](https://github.com/AF-Moreno/OperacionQuasar/tree/main/Documentation/ScreenShots/Project-DataBase-Publish.png)
   * Seleccionar la conexión:
   ![Screenshot](Documentation\ScreenShots\Project-DataBase-Publish-Connections.png)
   * Debe conectarse a la base de datos creada y ejecutar el **Procedimiento Almacenado** **[dbo.StartApplication]**
