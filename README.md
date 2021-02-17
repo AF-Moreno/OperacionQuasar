@@ -20,17 +20,17 @@ El objetivo principal es desarrollar una aplicación de servicios web REST Full 
 * Se requiere el IDE [Visual Studio](https://visualstudio.microsoft.com/es/)
 * **Configuración de la base de datos**
   * En el proyecto **MercadoLibre.OperacionQasar.DataBase** debe publicarse (Click Derecho, Publish..)
-  ![Screenshot](https://github.com/AF-Moreno/OperacionQuasar/tree/main/Documentation/ScreenShots/Project-DataBase-Publish.png)
+  ![Project-DataBase-Publish](https://user-images.githubusercontent.com/35159383/108167304-7cd1f400-70c3-11eb-84e8-e19874bf3104.png)
   * Seleccionar la conexión:
-  ![Screenshot](Documentation\ScreenShots\Project-DataBase-Publish-Connections.png)
+  ![Project-DataBase-Publish-Connections](https://user-images.githubusercontent.com/35159383/108167305-7d6a8a80-70c3-11eb-8de2-a139bfe90030.png)
   * Debe conectarse a la base de datos creada y ejecutar el **Procedimiento Almacenado** **[dbo.StartApplication]**
   * En el proyecto **MercadoLibre.OperacionQasar.WebApp** en el archivo **appsettings.Development.json** debe especificar la cadena de conexion a la base de datos creada en la propiedad **ConnectionStrings.DefaultConnection**
 * **Ejecución de la aplicación Web**
   * En **Visual Studio** se debe seleccionar el proyecto **MercadoLibre.OperacionQasar.WebApp** por defecto para ejecutar. Se recomienda seleccionar el servidor web **IIS Express**
-  ![Screenshot](Documentation\ScreenShots\Project-WebApp-Execution.png)
+  ![Project-WebApp-Execution](https://user-images.githubusercontent.com/35159383/108167308-7d6a8a80-70c3-11eb-9c23-a7b34779e868.png)
 * **Ejecución de pruebas Unitarias**
   * En la vista del **Explorador de Pruebas**  se ejecutan todas las pruebas
-  ![Screenshot](Documentation\ScreenShots\Project-Test-Execution.png)
+  ![Project-Test-Execution](https://user-images.githubusercontent.com/35159383/108167306-7d6a8a80-70c3-11eb-83c7-13fcbdb1632c.png)
 
 ## **Arquitectura de Software**
 Prácticas de desarrollo implementadas:
@@ -42,7 +42,7 @@ Prácticas de desarrollo implementadas:
 ### **Diagrama de Paquetes**
 Se implementa la arquitectura MVC segregado por las siguientes capas
 
-![Screenshot](Documentation\Diagrams\Export\PackagesDiagram.jpg)
+![PackagesDiagram](https://user-images.githubusercontent.com/35159383/108167277-72aff580-70c3-11eb-96f9-04bf804ace89.jpg)
 
 **MercadoLibre.OperacionQasar.Core**
 * **Repository** 
@@ -66,14 +66,14 @@ Se implementa la arquitectura MVC segregado por las siguientes capas
 ## **Administración del proyecto**
 Se implementa [Azure DevOps](https://azure.microsoft.com/es-es/services/devops/) para administrar el proyecto
 
-![Screenshot](Documentation\ScreenShots\Azure-DevOps.png)
+![Azure-DevOps](https://user-images.githubusercontent.com/35159383/108167314-7e032100-70c3-11eb-9bd6-347b36e4cc73.png)
 
 ### **configuración**
 * Service Connections
   * Conexión con el repositorio privado en **GitHub**
   * Conexión con la suscripción de **Azure**
 
-![Screenshot](Documentation\ScreenShots\Azure-DevOps-Settings.png)
+![Azure-DevOps-Settings](https://user-images.githubusercontent.com/35159383/108167303-7cd1f400-70c3-11eb-94ff-47e7922172c8.png)
 
 ## **Infraestructura y despliegue**
 El proyecto se despliega utilizando diferentes servicios del portal de **Azure**
@@ -97,21 +97,21 @@ Se requiere tener una suscripción activa en el portal de **Azure**
     Instancia que almacena toda la información del proyecto
       * **Azure Pipeline:**
       Servicio que permite la definición del Job para el despliegue de la aplicación. Se definen las tareas necesarias para realizar el despliegue de todos los componentes:
-      ![Screenshot](Documentation\ScreenShots\Azure-DevOps-Pipeline.png)
+      ![Azure-DevOps-Pipeline](https://user-images.githubusercontent.com/35159383/108167300-7c395d80-70c3-11eb-8a05-91daf2225ecb.png)
       
-        Éste se ejecuta de manera manual o después de que un **Pull Request** es aprobado en **GitHub:**
-      ![Screenshot](Documentation\ScreenShots\Azure-DevOps-Pipeline-Trigger.png)
+      Éste se ejecuta de manera manual o después de que un **Pull Request** es aprobado en **GitHub:**
+      ![Azure-DevOps-Pipeline-Trigger](https://user-images.githubusercontent.com/35159383/108167302-7cd1f400-70c3-11eb-8f3b-c0622e670907.png)
 
 ## **Características de la aplicación**
 * Implementa **Swagger** el cual nos ofrece una interfaz grafica que permite el uso de los diferentes servicios directamente desde el **Navegador Web** https://operacion-fuego-qasar.azurewebsites.net/swagger/index.html
-![Screenshot](Documentation\ScreenShots\Swagger-UI.png)
+![Swagger-UI](https://user-images.githubusercontent.com/35159383/108167312-7e032100-70c3-11eb-9d19-380295baef6e.png)
 * **Autenticación**
   * Como aplicación productiva se requiere el uso de autenticación de usuarios, en este caso se implementa la autenticación _Basic_ el cual requiere de usuario y contraseña: 
     * Usuario: meli.admin@meli.com
     * Contraseña: Meli.2021
     * Credenciales codificadas en Base 64: bWVsaS5hZG1pbkBtZWxpLmNvbTpNZWxpLjIwMjE=
   * Utilizando la interfaz grafica de **Swagger** podemos realizar la autenticación (Botón 'Authorize'):
-![Screenshot](Documentation\ScreenShots\Swagger-Authentication.png)
+![Swagger-Authentication](https://user-images.githubusercontent.com/35159383/108167310-7e032100-70c3-11eb-9e44-a422bd51f35f.png)
 
 * **Servicios**
   * POST
